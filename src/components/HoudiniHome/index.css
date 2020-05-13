@@ -1,0 +1,16 @@
+.home {
+  margin-left: 10px;
+  text-align: center;
+  /* width: 200px; */
+  --my-saturation: 0;
+  height: 200px;
+  border: 1px solid #333;
+  width: calc(var(--my-len) * 100%);
+  background: hsl(calc(var(--my-len) * 360),  calc(var(--my-saturation)* 100%), 50%);
+  transition: --my-len, --my-saturation, 1s ease-in-out;
+}
+
+.home:hover {
+  --my-len: 0.6;
+  --my-saturation: 1;
+}

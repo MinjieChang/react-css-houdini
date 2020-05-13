@@ -1,0 +1,6 @@
+.fancy {
+  --checkerboard-spacing: 10;
+  --checkerboard-size: 20;
+  background-image: paint(headerHighlight);
+  /* background-image: paint(headerHighlight, stroke, 10px); */
+}

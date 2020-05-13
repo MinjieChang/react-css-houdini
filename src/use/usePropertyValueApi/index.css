@@ -1,0 +1,28 @@
+.registered {
+  --registered: #c0ffee;
+  background-image: linear-gradient(to right, #fff, var(--registered));
+  transition: --registered 1s ease-in-out;
+}
+
+.registered:hover,
+.registered:focus {
+  --registered: #b4d455;
+}
+
+.unregistered {
+  --unregistered: #c0ffee;
+  background-image: linear-gradient(to right, #fff, var(--unregistered));
+  transition: --unregistered 1s ease-in-out;
+}
+
+.unregistered:hover,
+.unregistered:focus {
+  --unregistered: #b4d455;
+}
+
+button {
+  height: 40vh;
+  display: block;
+  width: 100%;
+  font-size: 3vw;
+}
