@@ -28,7 +28,7 @@ const texts = [
 export default function(){
   return <div className='masonry'>
     {
-      texts.map(text => <div className='text'>{text}</div>)
+      texts.map((text, idx) => <div key={idx} className='text'>{text}</div>)
     }
   </div>
 }
