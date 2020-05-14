@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-css-houdini/static/css/main.ee32d6ec.chunk.css",
+    "main.js": "/react-css-houdini/static/js/main.09f8bdd2.chunk.js",
+    "main.js.map": "/react-css-houdini/static/js/main.09f8bdd2.chunk.js.map",
+    "runtime-main.js": "/react-css-houdini/static/js/runtime-main.77d6e31d.js",
+    "runtime-main.js.map": "/react-css-houdini/static/js/runtime-main.77d6e31d.js.map",
+    "static/js/2.6227e33d.chunk.js": "/react-css-houdini/static/js/2.6227e33d.chunk.js",
+    "static/js/2.6227e33d.chunk.js.map": "/react-css-houdini/static/js/2.6227e33d.chunk.js.map",
+    "index.html": "/react-css-houdini/index.html",
+    "precache-manifest.b0872b9d597dc85e69ab1ad9b5bf7348.js": "/react-css-houdini/precache-manifest.b0872b9d597dc85e69ab1ad9b5bf7348.js",
+    "service-worker.js": "/react-css-houdini/service-worker.js",
+    "static/css/main.ee32d6ec.chunk.css.map": "/react-css-houdini/static/css/main.ee32d6ec.chunk.css.map",
+    "static/js/2.6227e33d.chunk.js.LICENSE.txt": "/react-css-houdini/static/js/2.6227e33d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77d6e31d.js",
+    "static/js/2.6227e33d.chunk.js",
+    "static/css/main.ee32d6ec.chunk.css",
+    "static/js/main.09f8bdd2.chunk.js"
+  ]
+}
