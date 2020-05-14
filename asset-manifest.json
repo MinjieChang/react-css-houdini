@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-css-houdini/static/css/main.ee32d6ec.chunk.css",
-    "main.js": "/react-css-houdini/static/js/main.09f8bdd2.chunk.js",
-    "main.js.map": "/react-css-houdini/static/js/main.09f8bdd2.chunk.js.map",
+    "main.js": "/react-css-houdini/static/js/main.a6a8c111.chunk.js",
+    "main.js.map": "/react-css-houdini/static/js/main.a6a8c111.chunk.js.map",
     "runtime-main.js": "/react-css-houdini/static/js/runtime-main.77d6e31d.js",
     "runtime-main.js.map": "/react-css-houdini/static/js/runtime-main.77d6e31d.js.map",
-    "static/js/2.6227e33d.chunk.js": "/react-css-houdini/static/js/2.6227e33d.chunk.js",
-    "static/js/2.6227e33d.chunk.js.map": "/react-css-houdini/static/js/2.6227e33d.chunk.js.map",
+    "static/js/2.f79e23e0.chunk.js": "/react-css-houdini/static/js/2.f79e23e0.chunk.js",
+    "static/js/2.f79e23e0.chunk.js.map": "/react-css-houdini/static/js/2.f79e23e0.chunk.js.map",
     "index.html": "/react-css-houdini/index.html",
-    "precache-manifest.b0872b9d597dc85e69ab1ad9b5bf7348.js": "/react-css-houdini/precache-manifest.b0872b9d597dc85e69ab1ad9b5bf7348.js",
+    "precache-manifest.60af3c708f61a5ce1b9461a3c38f8fcf.js": "/react-css-houdini/precache-manifest.60af3c708f61a5ce1b9461a3c38f8fcf.js",
     "service-worker.js": "/react-css-houdini/service-worker.js",
     "static/css/main.ee32d6ec.chunk.css.map": "/react-css-houdini/static/css/main.ee32d6ec.chunk.css.map",
-    "static/js/2.6227e33d.chunk.js.LICENSE.txt": "/react-css-houdini/static/js/2.6227e33d.chunk.js.LICENSE.txt"
+    "static/js/2.f79e23e0.chunk.js.LICENSE.txt": "/react-css-houdini/static/js/2.f79e23e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77d6e31d.js",
-    "static/js/2.6227e33d.chunk.js",
+    "static/js/2.f79e23e0.chunk.js",
     "static/css/main.ee32d6ec.chunk.css",
-    "static/js/main.09f8bdd2.chunk.js"
+    "static/js/main.a6a8c111.chunk.js"
   ]
 }
