@@ -1,0 +1,17 @@
+.masonry {
+  display: layout(masonry);
+  --padding: 20;
+  --columns: 3;
+}
+div.text {
+  background-color: hsl(0, 80%, 20%);
+  color: hsl(0, 80%, 95%);
+  font: 12px sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+div.text::first-letter {
+  font-size: 200%;
+}

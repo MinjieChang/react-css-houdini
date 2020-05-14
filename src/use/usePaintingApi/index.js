@@ -1,6 +1,7 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import Ripper from './ripper'
+import Mask from './mask'
 import './index.css'
 
 function registerWorklet() {
@@ -13,8 +14,15 @@ function registerWorklet() {
 registerWorklet()
 
 export default function(){
+  const [showRipper, toggleRipper] = useState(false)
+  const [showMask, toggleMask] = useState(false)
   return <div>
     <h1 className="fancy">My Cool Header</h1>
-    <Ripper></Ripper>
+    <div>
+      <span onClick={() => toggleRipper(!showRipper)}>clickMe Ripper</span>
+      <span onClick={() => toggleMask(!showMask)}>clickMe Mask</span>
+    </div>
+    {showRipper && <Ripper></Ripper>}
+    {showMask && <Mask></Mask>}
   </div>
 }

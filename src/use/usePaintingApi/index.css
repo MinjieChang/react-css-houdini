@@ -4,3 +4,13 @@
   background-image: paint(headerHighlight);
   /* background-image: paint(headerHighlight, stroke, 10px); */
 }
+
+.fancy+div {
+  margin-bottom: 10px;
+}
+
+span {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
