@@ -1,6 +1,6 @@
 import React from 'react';
-import {Link, Switch, Route, Router} from 'react-router-dom'
-import { createBrowserHistory } from 'history';
+import {Link, Switch, Route, HashRouter as Router} from 'react-router-dom'
+import { createHashHistory } from 'history';
 import './App.css';
 
 import HoudiniHome from './components/HoudiniHome'
@@ -8,7 +8,7 @@ import PropertyValue from './use/usePropertyValueApi'
 import PaintApi from './use/usePaintingApi'
 import LayoutApi from './use/useLayoutApi'
 
-const defaultHistory = createBrowserHistory();
+const defaultHistory = createHashHistory();
 
 
 

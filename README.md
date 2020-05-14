@@ -6,7 +6,7 @@ includes:
 - paintWorklet api
 - layoutWorklet api
 
-Try the [demo](https://ryleeharrison.github.io/react-houdini-masonry/)
+Try the [demo](https://minjiechang.github.io/react-css-houdini)
 
 ```sh
 git clone https://github.com/MinjieChang/react-css-houdini.git
