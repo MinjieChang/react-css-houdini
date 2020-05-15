@@ -15,15 +15,25 @@ const defaultHistory = createHashHistory();
 function App() {
   return (
     <div className="container">
-      {/* <div className="App"></div> */}
       <Router history={defaultHistory}>
-        <div><Link to={`/`}>home</Link></div>
-        <div><Link to={`/useHoudini`}>useHoudini</Link></div>
-        <div><Link to={`/propertyValye`}>propertyValye</Link></div>
-        <div><Link to={`/paint`}>paint</Link></div>
-        <div><Link to={`/layout`}>layout</Link></div>
+        <ul>
+          <li>Properties and values</li>
+          <ul>
+            <li><div><Link to={`/`}>home</Link></div></li>
+            <li><div><Link to={`/useHoudini`}>useHoudini</Link></div></li>
+            <li><div><Link to={`/propertyValye`}>propertyValye</Link></div></li>
+          </ul>
+          <li>paint worklet</li>
+          <ul>
+            <li><div><Link to={`/paint`}>paint</Link></div></li>
+          </ul>
+          <li>layout worklet</li>
+          <ul>
+            <li><div><Link to={`/layout`}>layout</Link></div></li>
+          </ul>
+        </ul>
         <Switch>
-          <Route exact path={`/`} component={() => <div className="App"></div>}></Route>
+          <Route exact path={`/`} component={() => <div className="App">i want get random width when refresh</div>}></Route>
           <Route exact path={`/useHoudini`} component={() => <HoudiniHome></HoudiniHome>}></Route>
           <Route exact path={`/propertyValye`} component={() => <PropertyValue />}></Route>
           <Route exact path={`/paint`} component={() => <PaintApi></PaintApi>}></Route>

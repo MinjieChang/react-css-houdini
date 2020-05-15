@@ -25,7 +25,7 @@ function setProp(value) {
 
 export default function(){
   return <div>
-    <div className="home">点亮我</div>
-    <span onClick={() => setProp(Math.random())}>changeWidth</span>
+    <h2 className="home">点亮我</h2>
+    <span onClick={() => setProp(Math.random())}>click me</span>
   </div>
 }

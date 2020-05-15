@@ -6,8 +6,8 @@ registerPaint('headerHighlight', class {
     return [ '--checkerboard-spacing', '--checkerboard-size' ] 
   }
 
-  // 此API
-  static get inputArguments() { return ['*', '<length>']; }
+  // 此API暂时还不支持
+  // static get inputArguments() { return ['*', '<length>']; }
 
   /**
    * 
