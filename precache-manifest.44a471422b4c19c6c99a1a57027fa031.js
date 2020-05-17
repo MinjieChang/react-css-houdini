@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a88cfe930ad03e70d4a82c3c052780a4",
+    "revision": "b033f3974f778a6d245ce902d8d20eda",
     "url": "/react-css-houdini/index.html"
   },
   {
-    "revision": "fd9634800c5aad6e6a46",
-    "url": "/react-css-houdini/static/css/main.9246269b.chunk.css"
+    "revision": "e9e48aae1a9d17def2b6",
+    "url": "/react-css-houdini/static/css/main.91d5c2b6.chunk.css"
   },
   {
     "revision": "aa53b72308117d84946a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-css-houdini/static/js/2.f79e23e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd9634800c5aad6e6a46",
-    "url": "/react-css-houdini/static/js/main.55c8ce25.chunk.js"
+    "revision": "e9e48aae1a9d17def2b6",
+    "url": "/react-css-houdini/static/js/main.9b00bfe8.chunk.js"
   },
   {
     "revision": "77c8045f4d9a64855888",
