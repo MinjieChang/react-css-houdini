@@ -14,6 +14,13 @@ function registerProperty(){
     inherits: false,
     initialValue: Math.random(),
   });
+  // 验证继承性能
+  window.CSS.registerProperty({
+    name: '--primary-color',
+    syntax: '<color>',
+    inherits: true,
+    initialValue: 'tomato',
+  });
 }
 registerProperty()
 
@@ -26,6 +33,8 @@ function setProp(value) {
 export default function(){
   return <div>
     <h2 className="home">点亮我</h2>
-    <span onClick={() => setProp(Math.random())}>click me</span>
+    <div className="btn" onClick={() => setProp(Math.random())}>
+      <span className="text">click me</span>
+    </div>
   </div>
 }

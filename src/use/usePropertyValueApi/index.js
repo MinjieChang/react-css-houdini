@@ -1,6 +1,20 @@
 import React from 'react'
-import registerProperty from './usePropertyValue';
 import './index.css'
+
+function registerProperty(){
+  window.CSS.registerProperty({
+    name: '--registered',
+    syntax: '<color>',
+    inherits: false,
+    initialValue: 'red',
+  });
+  // window.CSS.registerProperty({
+  //   name: '--unregistered',
+  //   syntax: '<color>',
+  //   inherits: false,
+  //   initialValue: 'red',
+  // });
+}
 
 registerProperty()
 

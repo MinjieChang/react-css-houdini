@@ -27,7 +27,7 @@ getPageStyles()
 .then((css) => postcss.parse(css))
 .then((ast) => {
   // 在这里可以把 ast 打印出来看看
-  console.log(ast)
+  console.log(ast, 'ast')
 });
 
 /**

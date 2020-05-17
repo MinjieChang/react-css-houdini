@@ -4,7 +4,7 @@
   width: 200px;
   height: 200px;
   border: 1px solid #333;
-  /* width: calc(random * 100%); */
+  width: calc(random * 100%);
   /* background: hsl(calc(random * 360), 50%, 50%); */
   /* color: hsl(hue, saturation, lightness); */
   /* width: calc(0.35746 * 100%); */
