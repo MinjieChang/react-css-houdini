@@ -17,7 +17,11 @@ yarn start # or npm start
 
 ## References
 
-[w3c](https://www.w3.org/TR/css-properties-values-api-1/)
-
-[MDN](https://developer.mozilla.org/en-US/docs/Web/Houdini)
+[w3c](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Painting_API/Guide)<br>
+[MDN](https://developer.mozilla.org/en-US/docs/Web/Houdini)<br>
+[polyfill pain](https://www.w3ctech.com/topic/1979)<br>
+[GoogleChromeLabs](https://github.com/GoogleChromeLabs/houdini-samples)<br>
+[houdini-samples](https://googlechromelabs.github.io/houdini-samples/)<br>
+[w3c-houdini](https://www.w3cplus.com/css/css-houdini.html)<br>
+[houdini-quickstart](http://www.danielcwilson.com/blog/2018/02/houdini-quickstart/)<br>
 
