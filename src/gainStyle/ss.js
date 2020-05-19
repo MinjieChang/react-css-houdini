@@ -13,8 +13,8 @@ export default function ss () {
     for (const rule of rules) {
       for (const property of Object.keys(rule.style)) {
         const value = rule.style[property];
-        // console.log(value, 99999)
         if (value.includes('random')) {
+          console.log(value, 99999)
           rule.style[property] = value.replace('random', Math.random());
         }
       }
