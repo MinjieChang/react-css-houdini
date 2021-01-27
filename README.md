@@ -15,6 +15,16 @@ yarn install # or npm install
 yarn start # or npm start
 ```
 
+if you open browser and look like this:
+
+![tip](./public/tip.png)
+
+it means that you need to visit __chrome://flags/__, take Google's browser for example, and set `Experimental Web Platform features` from **default** to **enabled**.
+
+![flag](./public/flag.png)
+
+then relaunch the chrome
+
 ## References
 
 [w3c](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Painting_API/Guide)<br>
