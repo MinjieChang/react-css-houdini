@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "gh-pages": "^2.2.0",
     "history": "^4.10.1",
-    "postcss": "^7.0.30",
+    "postcss": "^8.4.31",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
